@@ -1,8 +1,8 @@
 # ES6
 A project created by ES6
 
-## 项目构建
-### 项目构建测试中出现的问题
+### 项目构建
+#### 项目构建测试中出现的问题
 1. **Q：** *Failed to load external moudle @babel/register*  
    **A：** gulp版本问题，降低gulp的版本至3.9.0
    > npm install -g gulp@3.9.0
