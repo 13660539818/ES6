@@ -33,9 +33,8 @@ A project created by ES6
           }]
         }
       })
-    ```
-    改为
-    ```
+    改为  
+     ```
       .pipe(gulpWebpack({
         mode: "production",
         module:{
@@ -44,8 +43,8 @@ A project created by ES6
             loader:'babel-loader'
           }]
         }
-      })
-    ```  
+      }) 
+      ```
     还有一种最简单直接的方法，就是降低webpack的版本，但我觉得这也是最愚蠢的方法，我们应该学会适应新版本的特性，在新版本的基础上找出解决的方法。
 
    
